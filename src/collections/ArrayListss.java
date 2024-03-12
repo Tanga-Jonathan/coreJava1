@@ -17,7 +17,7 @@ public class ArrayListss {
         System.out.println(arrayList);
 
         for(int t=0; t<arrayList.size(); t++){
-            System.out.print(arrayList.get(t));
+            System.out.print(arrayList.get(t)+" ");
         }
     }
     
