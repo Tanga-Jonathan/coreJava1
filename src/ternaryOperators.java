@@ -6,6 +6,6 @@ public class ternaryOperators {
         int result;
         result = c < v ? v : c;
 
-        System.out.println(result);
+        System.out.println(result );
     }
 }
