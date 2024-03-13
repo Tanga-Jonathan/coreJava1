@@ -2,6 +2,7 @@ package collections;
 
 import java.util.*;
 
+import java.util.Map.Entry;
 public class HashMapss {
     public static void main(String[] args) {
         
@@ -27,7 +28,7 @@ public class HashMapss {
 
         //another approach
         for(Entry<String, Integer> entryy : map.entrySet()){
-            System.out.println("Key "+entryy.getKey()+"Values"+entryy.getValue());
+            System.out.println("Key "+entryy.getKey()+" Values "+entryy.getValue());
         }
 
     }
